@@ -16,7 +16,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-brand-black py-20 md:py-0">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-brand-black pt-24 pb-20 md:pt-28 md:pb-0">
       {/* Dynamic Background Elements */}
       <div className="absolute inset-0 z-0">
         <img
@@ -161,21 +161,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Down Indicator */}
-      <motion.div
-        style={{ opacity }}
-        className="absolute bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 z-30 flex flex-col items-center gap-2 cursor-pointer group"
-        onClick={(e) => handleNavClick(e, 'about')}
-      >
-        <span className="text-[10px] text-gray-400 tracking-[0.3em] uppercase group-hover:text-brand-red transition-colors">Scroll</span>
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-          className="w-7 h-12 border border-white/20 rounded-full flex justify-center p-1 bg-black/20 backdrop-blur-sm group-hover:border-brand-red/50 transition-colors"
-        >
-          <motion.div className="w-1 h-3 bg-brand-red rounded-full shadow-[0_0_8px_#D10000]" />
-        </motion.div>
-      </motion.div>
+
     </section>
   );
 };

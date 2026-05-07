@@ -48,7 +48,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-brand-black/90 backdrop-blur-md py-3 shadow-lg' : 'bg-transparent py-5'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 border-b border-white/5 ${isScrolled ? 'bg-brand-black py-3 shadow-xl' : 'bg-brand-black py-5'}`}>
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3 group cursor-pointer" onClick={(e) => handleNavClick(e, 'home')}>
