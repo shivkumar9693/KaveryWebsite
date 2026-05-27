@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 import LoadingScreen from './components/LoadingScreen';
+import SEO from './components/SEO';
 
 // Sections
 import Hero from './sections/Hero';
@@ -40,6 +41,7 @@ const ScrollToTop = () => {
 
 const HomePage = () => (
   <main>
+    <SEO />
     <Hero />
     <div className="h-12 md:h-20" />
     <MovingProductStrip />

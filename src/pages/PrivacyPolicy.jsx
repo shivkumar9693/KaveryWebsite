@@ -1,9 +1,15 @@
 import { motion } from 'framer-motion';
 import { Shield, Lock, Eye, FileText } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-brand-black pt-32 pb-24">
+      <SEO 
+        title="Privacy Policy"
+        description="Read the Privacy Policy of Kavery Tubing Solutions Pvt. Ltd. to understand how we collect, protect, and handle your data and business inquiries."
+        keywords="privacy policy, Kavery Tubing privacy, data protection, steel tubing business policy"
+      />
       <div className="container mx-auto px-4 md:px-8 max-w-4xl">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

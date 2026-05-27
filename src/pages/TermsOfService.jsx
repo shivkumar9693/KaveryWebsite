@@ -1,9 +1,15 @@
 import { motion } from 'framer-motion';
 import { FileText, Scale, AlertCircle, CheckCircle2 } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const TermsOfService = () => {
   return (
     <div className="min-h-screen bg-brand-black pt-32 pb-24">
+      <SEO 
+        title="Terms of Service"
+        description="Read the Terms of Service for Kavery Tubing Solutions Pvt. Ltd. governing the use of our industrial tubing website and catalog services."
+        keywords="terms of service, terms of use, Kavery Tubing rules, legal steel manufacturer"
+      />
       <div className="container mx-auto px-4 md:px-8 max-w-4xl">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

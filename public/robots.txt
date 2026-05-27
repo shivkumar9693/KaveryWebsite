@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/db.html
+# Googlebot, Bingbot, Baiduspider, Yandex, Yahoo, DuckDuckGo etc.
+
+User-agent: *
+Allow: /
+
+# Host & Sitemap references
+Host: https://kaverytubingsolutions.com
+Sitemap: https://kaverytubingsolutions.com/sitemap.xml
