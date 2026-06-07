@@ -57,7 +57,7 @@ const HomePage = () => (
     <MaterialExpertise />
     <Team />
     <Certifications />
-    <Clients />
+     
     <Contact />
   </main>
 );
