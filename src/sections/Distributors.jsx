@@ -30,7 +30,7 @@ const Distributors = () => {
       gst: "24AAACK4545A1ZP",
       logo: (
         <img 
-          src="/assets/logo_rounded.png" 
+          src="/assets/logo.png" 
           alt="Kaveri Impex" 
           className="w-12 h-12 object-contain rounded-full border border-white/10 p-1 bg-white/5" 
         />

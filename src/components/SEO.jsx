@@ -141,8 +141,9 @@ const SEO = ({
       <meta name="twitter:image" content={ogImage} />
 
       {/* Favicon & Web App Styling */}
-      <link rel="icon" type="image/png" href="/assets/logo.png" />
-      <link rel="apple-touch-icon" href="/assets/logo.png" />
+      <link rel="icon" type="image/png" href="/assets/logo.png?v=2" />
+      <link rel="shortcut icon" href="/assets/logo.png?v=2" />
+      <link rel="apple-touch-icon" href="/assets/logo.png?v=2" />
       <meta name="theme-color" content="#D10000" />
 
       {/* Google Result Customization / Logo Markup */}
