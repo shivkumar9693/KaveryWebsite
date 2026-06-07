@@ -42,7 +42,7 @@ const SEO = ({
     'name': 'Kavery Tubing Solutions Pvt. Ltd.',
     'alternateName': 'Kavery Tubing Solutions',
     'url': domain,
-    'logo': `${domain}/assets/logo.png`,
+    'logo': `${domain}/assets/logo_rounded.png`,
     'image': `${domain}/assets/hero_stainless_steel.png`,
     'description': defaultDescription,
     'telephone': '+91 98987 40495',
@@ -141,7 +141,7 @@ const SEO = ({
       <meta name="twitter:image" content={ogImage} />
 
       {/* Favicon & Web App Styling */}
-      <link rel="icon" type="image/png" href="/assets/logo.png" />
+      <link rel="icon" type="image/png" href="/assets/logo_rounded.png" />
       <link rel="apple-touch-icon" href="/assets/logo_rounded.png" />
       <meta name="theme-color" content="#D10000" />
 

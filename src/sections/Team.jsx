@@ -2,6 +2,16 @@ const Team = () => {
   return (
     <section id="leadership" className="py-24 bg-brand-gray">
       <div className="container mx-auto px-4 md:px-8">
+        
+        {/* Header Section */}
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">OUR <span className="text-brand-red">LEADER</span></h2>
+          <p className="text-gray-400 max-w-2xl mx-auto">
+            Our founder's dedicated vision shapes our high standards of engineering quality and global trust.<br />
+            Guided by strategic leadership, we remain committed to driving industrial innovation and customer trust.
+          </p>
+        </div>
+
         <div className="max-w-4xl mx-auto glass-panel rounded-2xl overflow-hidden flex flex-col md:flex-row">
 
           <div className="md:w-2/5">

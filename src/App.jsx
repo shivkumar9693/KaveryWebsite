@@ -29,6 +29,7 @@ import Contact from './sections/Contact';
 // Pages
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
+import ProductDetails from './pages/ProductDetails';
 
 // Scroll to Top Component to handle route changes
 const ScrollToTop = () => {
@@ -92,6 +93,7 @@ function App() {
         
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/products/:productId" element={<ProductDetails />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
         </Routes>

@@ -84,8 +84,10 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
               className="text-lg md:text-xl text-gray-400 mb-10 max-w-xl leading-relaxed lg:border-l-2 lg:border-brand-red/30 lg:pl-6 mx-auto lg:mx-0"
             >
-              We manufacture high-grade seamless and welded tubes that withstand extreme pressures, delivering unparalleled strength for global critical applications.
-            </motion.p>
+We manufacture high-quality stainless steel tubes built for precision, performance, 
+and reliability. Combining advanced technology with strict quality standards, we 
+deliver durable SS tubing solutions for multiple industrial applications. Our focus on 
+excellence, innovation, and customer trust drives everything we create.             </motion.p>
 
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -112,51 +114,23 @@ const Hero = () => {
             </motion.div>
           </div>
 
-          {/* Right Floating Elements (3D abstract representation) */}
-          <motion.div
+          {/* Right Floating Elements (3D abstract representation)
+          {/* <motion.div
             style={{ y: y1 }}
             className="hidden lg:block w-2/5 relative h-[600px] [perspective:1000px]"
-          >
+          > */}
             {/* Center glowing tube abstract */}
-            <motion.div
+            {/* <motion.div
               animate={{ rotateY: 360, rotateX: [10, -10, 10] }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
               className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full border-[15px] border-transparent shadow-[0_0_30px_rgba(209,0,0,0.3)] flex items-center justify-center [transform-style:preserve-3d] brushed-metal"
-            >
-              <div className="absolute inset-0 rounded-full border-[8px] border-brand-red/80 z-20 shadow-[0_0_20px_rgba(209,0,0,0.5)]" />
+            > */}
+              {/* <div className="absolute inset-0 rounded-full border-[8px] border-brand-red/80 z-20 shadow-[0_0_20px_rgba(209,0,0,0.5)]" />
               <div className="w-48 h-48 rounded-full border-2 border-white/50 border-dashed animate-[spin_10s_linear_infinite_reverse] z-10" />
               <div className="absolute inset-0 rounded-full bg-brand-black/90 m-6 shadow-[inset_0_0_30px_rgba(0,0,0,1)] z-10" />
-            </motion.div>
-
-            {/* Floating Glass Cards */}
-            <motion.div
-              animate={{ y: [0, -20, 0], x: [0, 10, 0] }}
-              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute top-20 right-0 glass-panel p-4 rounded-xl border border-white/20 shadow-2xl backdrop-blur-md w-48 z-20 bg-black/60"
-            >
-              <div className="text-stainless-steel font-bold text-3xl font-heading mb-1 inline-block">0%</div>
-              <div className="text-xs text-gray-300 font-medium tracking-widest uppercase">Defect Rate</div>
-            </motion.div>
-
-            <motion.div
-              animate={{ y: [0, 20, 0], x: [0, -10, 0] }}
-              transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-              className="absolute bottom-32 -left-10 glass-panel p-5 rounded-xl border border-white/20 shadow-2xl backdrop-blur-md w-64 z-20 bg-black/60"
-            >
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse shadow-[0_0_12px_#22c55e]" />
-                <div className="text-xs text-stainless-steel font-bold tracking-widest uppercase">Global Delivery</div>
-              </div>
-              <div className="h-1.5 w-full bg-white/10 rounded-full overflow-hidden">
-                <motion.div
-                  initial={{ width: 0 }}
-                  animate={{ width: "100%" }}
-                  transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                  className="h-full bg-brand-red shadow-[0_0_10px_#D10000]"
-                />
-              </div>
-            </motion.div>
-          </motion.div>
+            </motion.div> */}            
+            {/* </motion.div> */}
+          
 
         </div>
       </div>

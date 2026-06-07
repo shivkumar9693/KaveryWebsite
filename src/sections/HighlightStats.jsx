@@ -9,8 +9,8 @@ const HighlightStats = () => {
   const [hasAnimated, setHasAnimated] = useState(false);
   const [stats, setStats] = useState([
     { label: "Years Experience", value: 0, target: 15, suffix: "+" },
-    { label: "Global Clients", value: 0, target: 500, suffix: "+" },
-    { label: "Products", value: 0, target: 50, suffix: "+" },
+    { label: "DOMESTIC CLIENT", value: 0, target: 200, suffix: "+" },
+    { label: " GLOBAL CLIENTS", value: 0, target: 50, suffix: "+" },
     { label: "Industries Served", value: 0, target: 20, suffix: "+" },
   ]);
 

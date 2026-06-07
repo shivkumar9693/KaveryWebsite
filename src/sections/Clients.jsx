@@ -10,7 +10,8 @@ const Clients = () => {
     <section className="py-16 bg-brand-gray border-b border-white/5">
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-10">
-          <h4 className="text-sm text-gray-500 font-bold tracking-widest uppercase">Trusted By Industry Leaders</h4>
+          <h4 className="text-sm text-gray-500 font-bold tracking-widest uppercase">  OUR PRODUCT 
+BUYERS</h4>
         </div>
 
         <div className="flex flex-wrap justify-center gap-8 md:gap-16">

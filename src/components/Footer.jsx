@@ -25,22 +25,25 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-6 cursor-pointer group" onClick={(e) => handleNavClick(e, 'home')}>
-              <div className="w-10 h-10 flex items-center justify-center overflow-hidden rounded-full bg-white p-1 border border-white/20 transition-all">
+              <div className="w-14 h-14 flex items-center justify-center overflow-hidden rounded-full bg-white p-2 border border-white/20 transition-all">
                 <img src="/assets/logo.png" alt="Kavery Logo" className="w-full h-full object-contain" />
               </div>
               <div>
-                <h1 className="font-heading font-bold text-lg tracking-wider leading-none">KAVERY</h1>
-                <p className="text-[8px] tracking-widest text-gray-400">TUBING SOLUTIONS Pvt. Ltd.</p>
+                <h1 className="font-heading font-bold text-2xl tracking-wider leading-none">KAVERY</h1>
+                <p className="text-xs tracking-wider text-gray-400 mt-1 font-semibold">TUBING SOLUTIONS Pvt. Ltd.</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-6 leading-relaxed">
               Premium manufacturers of high-grade stainless steel seamless and welded tubes, delivering engineering excellence globally.
             </p>
-            <div className="flex gap-4">
-              <a href="https://x.com/kaverytubing" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition-colors text-gray-400" title="Twitter/X"><XIcon /></a>
-              <a href="https://www.linkedin.com/in/kaverytubingsolutions/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition-colors text-gray-400" title="LinkedIn"><LinkedinIcon /></a>
-              <a href="https://www.instagram.com/kaverytubing/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition-colors text-gray-400" title="Instagram"><InstagramIcon /></a>
-              <a href="https://www.youtube.com/@Kaverytubingsolutions" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition-colors text-gray-400" title="YouTube"><YoutubeIcon /></a>
+            <div className="mb-6">
+              <h5 className="text-xs uppercase tracking-widest text-brand-red font-bold mb-3">Follow us on social media</h5>
+              <div className="flex gap-4">
+                <a href="https://x.com/kaverytubing" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition-colors text-gray-400" title="Twitter/X"><XIcon /></a>
+                <a href="https://www.linkedin.com/in/kaverytubingsolutions/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition-colors text-gray-400" title="LinkedIn"><LinkedinIcon /></a>
+                <a href="https://www.instagram.com/kaverytubing/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition-colors text-gray-400" title="Instagram"><InstagramIcon /></a>
+                <a href="https://www.youtube.com/@Kaverytubingsolutions" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded bg-white/5 flex items-center justify-center hover:bg-brand-red hover:text-white transition-colors text-gray-400" title="YouTube"><YoutubeIcon /></a>
+              </div>
             </div>
           </div>
 

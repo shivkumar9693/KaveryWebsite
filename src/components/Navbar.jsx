@@ -52,12 +52,12 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3 group cursor-pointer" onClick={(e) => handleNavClick(e, 'home')}>
-            <div className="w-12 h-12 flex items-center justify-center overflow-hidden rounded-full bg-white p-1.5 border-2 border-brand-red shadow-[0_0_15px_rgba(209,0,0,0.4)] transition-transform group-hover:scale-110">
+            <div className="w-16 h-16 flex items-center justify-center overflow-hidden rounded-full bg-white p-2 border-2 border-brand-red shadow-[0_0_15px_rgba(209,0,0,0.4)] transition-transform group-hover:scale-110">
               <img src="/assets/logo.png" alt="Kavery Logo" className="w-full h-full object-contain" />
             </div>
             <div>
-              <h1 className="font-heading font-bold text-xl tracking-wider leading-none">KAVERY</h1>
-              <p className="text-[10px] tracking-widest text-gray-400">TUBING SOLUTIONS Pvt. Ltd. </p>
+              <h1 className="font-heading font-bold text-2xl tracking-wider leading-none">KAVERY</h1>
+              <p className="text-xs tracking-wider text-gray-400 mt-1 font-semibold">TUBING SOLUTIONS Pvt. Ltd.</p>
             </div>
           </div>
 

@@ -2,11 +2,30 @@ import { MapPin } from 'lucide-react';
 
 const Suppliers = () => {
   const suppliers = [
-    { name: "Heavy Metal & Tubes", loc: "Gujarat, India", type: "Raw Material" },
-    { name: "Sun Mark Stainless Pvt. Ltd.", loc: "Maharashtra, India", type: "SS Coils" },
-    { name: "Bhuleshwar Seamless", loc: "Maharashtra, India", type: "Billets" },
-    { name: "Petroinox Pipes", loc: "Gujarat, India", type: "Mother Pipes" },
-    { name: "Laxcon Steels Limited", loc: "Gujarat, India", type: "Ingots" },
+    { 
+      name: "Heavy Metal & Tubes", 
+      loc: "Gujarat, India", 
+      type: "RAW MATERIAL / MOTHER HOLLOW BAR",
+      logo: null
+    },
+    { 
+      name: "Sun Mark Stainless Pvt. Ltd.", 
+      loc: "Maharashtra, India", 
+      type: "RAW MATERIAL / MOTHER HOLLOW BAR",
+      logo: "/assets/logo_sunmark.png"
+    },
+    { 
+      name: "Bhuleshwar Seamless", 
+      loc: "Maharashtra, India", 
+      type: "RAW MATERIAL / MOTHER HOLLOW BAR",
+      logo: "/assets/logo_bhuleshwar.png"
+    },
+    { 
+      name: "Laxcon Steels Limited", 
+      loc: "Gujarat, India", 
+      type: "RAW MATERIAL / MOTHER HOLLOW BAR",
+      logo: "/assets/logo_laxcon.png"
+    },
   ];
 
   return (
@@ -17,16 +36,28 @@ const Suppliers = () => {
           <p className="text-gray-400">Quality begins at the source. We partner with the best.</p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-wrap justify-center gap-4">
           {suppliers.map((sup, idx) => (
-            <div key={idx} className="glass-panel p-6 rounded-lg w-full md:w-[300px] hover:border-brand-red/50 transition-colors group">
-              <div className="h-16 flex items-center mb-4">
-                <div className="text-2xl font-bold text-gray-500 group-hover:text-white transition-colors">{sup.name}</div>
+            <div key={idx} className="glass-panel p-4 rounded-lg w-full md:w-[230px] hover:border-brand-red/50 transition-colors group">
+              <div className="h-12 flex items-center mb-3">
+                {sup.logo ? (
+                  <div className="w-full h-full bg-white/95 rounded-md p-1.5 flex items-center justify-center shadow-inner group-hover:bg-white transition-colors">
+                    <img 
+                      src={sup.logo} 
+                      alt={sup.name} 
+                      className="max-h-full max-w-full object-contain" 
+                    />
+                  </div>
+                ) : (
+                  <div className="text-base font-bold text-gray-500 group-hover:text-white transition-colors leading-tight">
+                    {sup.name}
+                  </div>
+                )}
               </div>
-              <div className="flex items-center gap-2 text-sm text-gray-400 mb-1">
-                <MapPin size={14} className="text-brand-red" /> {sup.loc}
+              <div className="flex items-center gap-1.5 text-xs text-gray-400 mb-1">
+                <MapPin size={12} className="text-brand-red" /> {sup.loc}
               </div>
-              <div className="text-xs uppercase tracking-widest text-brand-red bg-brand-red/10 inline-block px-2 py-1 rounded mt-2">
+              <div className="text-[9px] uppercase tracking-wider text-brand-red bg-brand-red/10 inline-block px-2 py-0.5 rounded mt-1 font-mono font-semibold">
                 {sup.type}
               </div>
             </div>

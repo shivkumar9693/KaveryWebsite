@@ -51,17 +51,24 @@ const About = () => {
             </h2>
             
             <p className="about-text text-gray-400 mb-6 leading-relaxed">
-              With over 15 years of engineering excellence, Kavery Tubing Solutions Pvt. Ltd. has established itself as a premier manufacturer of high-quality stainless steel seamless and welded tubes. Our commitment to precision, innovation, and uncompromising quality has made us the trusted partner for critical applications across the globe.
-            </p>
+Kavery Tubing Solutions Pvt. Ltd. is a trusted manufacturer of premium quality 
+Stainless Steel Tubes with over 15 years of industry experience in the stainless steel 
+and tubing sector. We specialize in manufacturing precision-engineered SS tubes 
+designed to meet the highest standards of strength, durability, corrosion resistance, 
+and performance for various industrial applications.            </p>
             
             <div id="vision" className="grid sm:grid-cols-2 gap-6 mt-10">
               <div className="about-text glass-panel p-6 rounded-lg border-t-2 border-t-brand-red">
                 <h3 className="text-xl font-bold mb-3">Our Vision</h3>
-                <p className="text-sm text-gray-400">To be the global leader in providing innovative and reliable tubing solutions that empower industries.</p>
+                <p className="text-sm text-gray-400">To become a leading and globally trusted stainless steel tube manufacturing company by 
+delivering superior quality products, adopting advanced technologies, and building long-term 
+relationships based on trust, innovation, and excellence.</p>
               </div>
               <div className="about-text glass-panel p-6 rounded-lg border-t-2 border-t-brand-red">
                 <h3 className="text-xl font-bold mb-3">Our Mission</h3>
-                <p className="text-sm text-gray-400">Delivering exceptional quality products through advanced manufacturing processes and continuous improvement.</p>
+                <p className="text-sm text-gray-400">Our mission is to manufacture premium-quality stainless steel tubes with precision, 
+consistency, and advanced technology while maintaining the highest standards of customer 
+satisfaction, timely delivery, and sustainable growth.</p>
               </div>
             </div>
           </div>

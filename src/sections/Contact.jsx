@@ -74,7 +74,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold mb-1">Address</h4>
-                    <p className="text-gray-400 text-sm">Plot No. 45, Industrial Area, Phase II,<br/>GIDC, Ahmedabad, Gujarat, India - 380015</p>
+                    <p className="text-gray-400 text-sm leading-relaxed">
+                      Factory | Survey no.: 1780.1002 | Ambavpura Cross Road<br/>
+                      Village : Pansar, | Ta: Kalol | Dist. Gandhinagar<br/>
+                      Gujarat - 382 740 | INDIA
+                    </p>
                   </div>
                 </div>
                 
@@ -103,7 +107,7 @@ const Contact = () => {
             {/* Map Integration */}
             <div className="h-64 rounded-2xl overflow-hidden border border-white/10 relative group shadow-2xl">
               <iframe 
-                src="https://www.google.com/maps?q=Plot%20No.%2045,%20Industrial%20Area,%20Phase%20II,%20GIDC,%20Ahmedabad,%20Gujarat,%20India%20-%20380015&output=embed"
+                src="https://www.google.com/maps?q=Survey%20no.%201780.1002,%20Ambavpura%20Cross%20Road,%20Pansar,%20Kalol,%20Gandhinagar,%20Gujarat%20-%20382740,%20India&output=embed"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0, filter: 'grayscale(1) invert(0.9) contrast(1.2)' }} 
